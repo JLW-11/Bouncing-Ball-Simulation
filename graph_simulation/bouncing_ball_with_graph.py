@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Set the initial position and velocity
 y_pos = 200  # Initial y position (starts above ground)
 y_velocity = 0  # Initial velocity (stationary)
-gravity = -0.5  # Gravity (negative to simulate downward motion)
+gravity = -0.03  # Gravity (negative to simulate downward motion)
 ground_level = 0  # Ground level (below the starting point)
 
 # Initialize lists to store data for plotting
@@ -18,7 +18,7 @@ current_time = 0
 time_step = 0.02  # 20 ms for each time step
 
 # Main loop to simulate the bouncing ball
-while current_time < 10:  # Run the simulation for 10 seconds
+while current_time < 30:  # Run the simulation for 10 seconds
     # Update velocity and position
     y_velocity += gravity  # Simulate gravity (pull down)
     y_pos += y_velocity  # Update the ball's position

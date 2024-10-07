@@ -37,7 +37,7 @@ To run the graph simulation, you’ll need to install the required dependencies 
 3. **Install the Required Packages: Once the virtual environment is activated, you can install matplotlib**:
 
     ```bash
-    pip install matplotlib
+    pip3 install matplotlib
     ```
 
 4. **Run the Graph Simulation: After installing the dependencies, you can run the bouncing ball simulation with graph visualization**:
